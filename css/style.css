@@ -1,0 +1,22 @@
+/******************************************
+/* LAYOUT                   
+/*******************************************/
+
+/* Center the container */
+#container {
+     width: 960px;
+     margin: 0px auto;
+}
+
+#game {
+     margin: 30px auto;
+     padding: 50px;
+     width: 500px;
+}
+
+#card-area {
+     margin: 0px auto;
+     padding: 50px;
+     border: 1px black solid;
+}
+

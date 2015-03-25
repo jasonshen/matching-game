@@ -15,8 +15,30 @@
 }
 
 #card-area {
-     margin: 0px auto;
-     padding: 50px;
-     border: 1px black solid;
+    display: inline-block;
+    padding: 50px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-bottom: 30px;
 }
 
+
+.card {
+     width: 71px;
+     height: 96px;
+     display: inline-block;
+     background: url('../img/back-of-card.png');
+     border: 1px solid white;
+}
+ 
+[data-card=king-clubs].matched, [data-card=king-clubs].selected {
+     background: url('../img/King.png');
+}
+ 
+[data-card=queen-clubs].matched, [data-card=queen-clubs].selected {
+     background: url('../img/Queen.png');
+}
+ 
+.matched {
+     border: 1px solid green;
+}
